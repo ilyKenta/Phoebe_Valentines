@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Web Page</title>
+    <style>
+        .background {
+            background-image: url('https://i.pinimg.com/originals/4b/e7/15/4be7153b42ea140ee0fa817725de91a1.gif');
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .maindiv {
+            margin: auto;
+            width: 50%;
+            border: 3px solid red;
+            padding: 10px;
+            background-color: antiquewhite;
+            transform: translateY(30%);
+            border-radius: 2%;
+
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+
+        div {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font: italic;
+        }
+
+        .row1 {
+            text-align: center;
+            margin: auto;
+        }
+
+        .row1 .col-md-3 {
+            display: inline-block;
+            vertical-align: middle;
+            float: none;
+            height:90px;
+            width:165px;
+            font-size: 35px;
+            border-radius: 20%;
+        }
+    </style>
+</head>
+
+<body class="background">
+    <div class="maindiv">
+        <h1>Will you be my valentine?</h1>
+        <img style="text-align: center;" src="https://media.tenor.com/Eog9WTKDMAkAAAAM/cat-and-flower.gif" alt="cat with flowers">
+
+        <table class="row1">
+            <tr>
+                <td>
+                    <a href="yes.html">
+                        
+                        <button class="col-md-3" type="button">Yes</button>
+                    </a>
+                </td>
+                <td style="width: 40px;"></td>
+                <td>
+                    <a href="no.html">
+                        <button class="col-md-3" type="button">No</button>
+                    </a>
+                    
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
